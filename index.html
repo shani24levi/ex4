@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="includes/style.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <mata charset="UTF-8"></mata>
+        <title> shani levi</title>
+    </head>
+
+    <body class="Maincolor">
+        <header>
+            <h1 class="text-center">Form</h1>
+            <a type="button" class="btn btn-outline-success login" href="login.html" >LOGIN</a>        </header>
+
+        <main class="container">
+
+            <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="GET" class="wapper" >
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div >
+                            <label class="col-sm-12">fullName:
+                                <input type="text" name="fullName" class="form-control">
+                            </label>
+                        </div>
+
+                        <div>
+                            <label class="col-sm-12">phone:
+                                <input type="tel" name="phone" class="form-control">
+                            </label>
+                        </div>
+                            
+
+
+                        <div>
+                            <label class="col-sm-12">mail:
+                                <input type="email" name="mail" class="form-control">
+                            </label>
+                        </div>
+
+                        <div>
+                            <label class="col-sm-12">website:
+                                <input type="url" name="webdite" class="form-control">
+                            </label>
+                        </div>
+                    </div>
+
+            
+                    <div class="col-sm-6">
+                        <div>
+                            <label class="col-sm-12">pass:
+                                <input type="password" name="pass" class="form-control">
+                            </label>
+                        </div>
+
+
+            
+                        <div>
+                            <label class="col-sm-12">coffee:
+                                <input type="number" name="coffee" class="form-control">
+                            </label>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="col-sm-12">address:
+                                <textarea name="address" cols="30" rows="5" class="form-control"> </textarea>
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">  
+                    <div class="col-sm-3">
+                        <div class="col-sm-2">
+                            <label> age:</label>                                
+                            <select name="age" >
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>                                
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <label>gender:</label> <br>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" name="gender" value="male" class="form-check-input">male
+                            </label>
+                            <label class="form-check-label">
+                                <input type="radio" name="gender" value="femal" class="form-check-input">femal
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <label>internet:</label> <br>
+                        <div class="form-check-inline">
+                            <label class="form-check-label"> 
+                                <input type="checkbox" name="gogle" class="form-check-input">gogle
+                            </label>
+                        </div>
+
+                        <div class="form-check-inline">
+                            <label class="form-check-label"> 
+                                <input type="checkbox" name="walla" class="form-check-input">walla
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <p><label>temper:<br>
+                                0<input type="range" name="temper" class="form-control" min="0" max="100">100
+                            </label></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                        <input type="submit" value="Send Form" class="btn btn-success btn-lg btn-block">
+                </div>
+            
+
+            </form>        
+
+        </main>
+
+    </body>
+
+</html>
